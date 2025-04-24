@@ -40,12 +40,12 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
-```
+```cuda
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 ```
 ### WITH MEMSET:
-```
+```cuda
 %%cuda
 #include <stdio.h>
 #include <cuda_runtime.h>
